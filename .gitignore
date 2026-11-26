@@ -1,0 +1,17 @@
+# Kaggle job builds, downloaded outputs and helper scripts
+kaggle/
+
+# local environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+data/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz

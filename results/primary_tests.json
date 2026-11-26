@@ -1,0 +1,61 @@
+{
+ "H1": {
+  "test": "log-log capacity slope, M2 (n=4) minus M1 Hebbian (paired bootstrap over sets)",
+  "estimate": 2.2652888810368466,
+  "lo": 2.2290072108376435,
+  "hi": 2.302005144368069,
+  "p": 0.0005,
+  "p_holm": 0.001,
+  "direction_as_predicted": true,
+  "supported": true
+ },
+ "H2": {
+  "test": "log P*(M2, n=3) - log P*(M1 Hebbian) at c = 0.4 (paired bootstrap over sets)",
+  "estimate": 1.2614550027542135,
+  "ratio": 3.5305547188666466,
+  "lo": 0.870728586033819,
+  "hi": 1.2956233280886167,
+  "p": 0.0005,
+  "p_holm": 0.001,
+  "direction_as_predicted": true,
+  "supported": true
+ },
+ "H3": {
+  "test": "M3, p = 16, c = 0.6: per-set Spearman(beta, fraction single-memory recall); Wilcoxon vs 0",
+  "median_rho": 0.8786687791935092,
+  "n_sets": 50,
+  "n_sets_constant": 0,
+  "p": 1.6123666862624256e-11,
+  "p_holm": 9.674200117574554e-11,
+  "direction_as_predicted": true,
+  "supported": true
+ },
+ "H4": {
+  "test": "all-or-none index, M4 (softmax) memory-neuron deletion vs M1 synapse deletion; paired Wilcoxon over sets",
+  "mean_M4": 1.0,
+  "mean_M1": 0.6812437082669944,
+  "n_sets": 50,
+  "p": 1.1074844197524941e-09,
+  "p_holm": 3.3224532592574824e-09,
+  "direction_as_predicted": true,
+  "supported": true
+ },
+ "H5": {
+  "test": "beta = 1/sqrt(d): per-set mean accuracy over context lengths, key similarity rho = 0 vs rho = 0.8 (paired Wilcoxon)",
+  "mean_rho0": 1.0,
+  "mean_rho08": 0.42530769230769233,
+  "p": 7.376066887376364e-10,
+  "p_holm": 3.150823036797884e-09,
+  "direction_as_predicted": true,
+  "supported": true
+ },
+ "H6": {
+  "test": "M1 retrieval of the 20 most recent memories after a 3N stream: decay lambda = 0.98 vs unbounded Hebbian (paired Wilcoxon over sets)",
+  "mean_bounded": 0.4660000000000001,
+  "mean_unbounded": 0.0,
+  "p": 6.301646073595768e-10,
+  "p_holm": 3.150823036797884e-09,
+  "direction_as_predicted": true,
+  "supported": true
+ }
+}

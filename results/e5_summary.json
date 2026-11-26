@@ -1,0 +1,214 @@
+{
+ "aon": {
+  "M1-Hebb|synapse": {
+   "mean": 0.6812437082669944,
+   "lo": 0.6365913208337999,
+   "hi": 0.7205746227402058,
+   "n_sets": 50,
+   "chance_gradual": 0.25
+  },
+  "M1-Hebb|noise": {
+   "mean": 0.7594887378199673,
+   "lo": 0.7304184298001667,
+   "hi": 0.7882310341400642,
+   "n_sets": 49,
+   "chance_gradual": 0.25
+  },
+  "M4-softmax|neuron": {
+   "mean": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_sets": 50,
+   "chance_gradual": 0.25
+  },
+  "M4-softmax|synapse": {
+   "mean": 0.8070546128737147,
+   "lo": 0.7414254590725178,
+   "hi": 0.8718123069799223,
+   "n_sets": 9,
+   "chance_gradual": 0.25
+  },
+  "M4-softmax|noise": {
+   "mean": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_sets": 41,
+   "chance_gradual": 0.25
+  },
+  "M4-power|neuron": {
+   "mean": 1.0,
+   "lo": 1.0,
+   "hi": 1.0,
+   "n_sets": 50,
+   "chance_gradual": 0.25
+  },
+  "M4-power|synapse": {
+   "mean": 0.7811302577457315,
+   "lo": 0.7054927300073633,
+   "hi": 0.8436385212392166,
+   "n_sets": 7,
+   "chance_gradual": 0.25
+  },
+  "M4-power|noise": {
+   "mean": 0.9935687981664993,
+   "lo": 0.986238027617338,
+   "hi": 1.0,
+   "n_sets": 45,
+   "chance_gradual": 0.25
+  }
+ },
+ "half_level": {},
+ "proto_vs_item": {
+  "M1-Hebb|synapse": {
+   "item": {
+    "baseline": 0.0,
+    "half_level": null
+   },
+   "memcue_to_proto": {
+    "baseline": 1.0,
+    "half_level": 0.9244069912609238
+   },
+   "lure_to_proto": {
+    "baseline": 1.0,
+    "half_level": 0.9316165951359084
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 0.9244069912609238
+   }
+  },
+  "M1-Hebb|noise": {
+   "item": {
+    "baseline": 0.0,
+    "half_level": null
+   },
+   "memcue_to_proto": {
+    "baseline": 1.0,
+    "half_level": 3.2940108892921955
+   },
+   "lure_to_proto": {
+    "baseline": 1.0,
+    "half_level": 3.3600000000000003
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 3.2940108892921955
+   }
+  },
+  "M4-softmax|neuron": {
+   "item": {
+    "baseline": 1.0,
+    "half_level": 0.5211538461538463
+   },
+   "memcue_to_proto": {
+    "baseline": 0.0,
+    "half_level": null
+   },
+   "lure_to_proto": {
+    "baseline": 0.9969999999999999,
+    "half_level": 0.40643153526970954
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 0.988342541436464
+   }
+  },
+  "M4-softmax|synapse": {
+   "item": {
+    "baseline": 1.0,
+    "half_level": 0.11707779886148008
+   },
+   "memcue_to_proto": {
+    "baseline": 0.0,
+    "half_level": null
+   },
+   "lure_to_proto": {
+    "baseline": 0.9969999999999999,
+    "half_level": 0.49188679245283023
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 0.11707779886148008
+   }
+  },
+  "M4-softmax|noise": {
+   "item": {
+    "baseline": 1.0,
+    "half_level": 0.6433666191155492
+   },
+   "memcue_to_proto": {
+    "baseline": 0.0,
+    "half_level": null
+   },
+   "lure_to_proto": {
+    "baseline": 0.9969999999999999,
+    "half_level": 0.668783422459893
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 0.6433666191155492
+   }
+  },
+  "M4-power|neuron": {
+   "item": {
+    "baseline": 0.9839999999999999,
+    "half_level": 0.517821782178218
+   },
+   "memcue_to_proto": {
+    "baseline": 0.016,
+    "half_level": null
+   },
+   "lure_to_proto": {
+    "baseline": 1.0,
+    "half_level": 0.5537764350453173
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 0.9895428571428572
+   }
+  },
+  "M4-power|synapse": {
+   "item": {
+    "baseline": 0.9839999999999999,
+    "half_level": 0.11488095238095242
+   },
+   "memcue_to_proto": {
+    "baseline": 0.016,
+    "half_level": null
+   },
+   "lure_to_proto": {
+    "baseline": 1.0,
+    "half_level": 0.490625
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 0.12311212814645311
+   }
+  },
+  "M4-power|noise": {
+   "item": {
+    "baseline": 0.9839999999999999,
+    "half_level": 0.43840579710144933
+   },
+   "memcue_to_proto": {
+    "baseline": 0.016,
+    "half_level": null
+   },
+   "lure_to_proto": {
+    "baseline": 1.0,
+    "half_level": 1.0274102079395087
+   },
+   "gist": {
+    "baseline": 1.0,
+    "half_level": 0.6717612809315866
+   }
+  }
+ },
+ "primary_H4": {
+  "test": "all-or-none index, M4 (softmax) memory-neuron deletion vs M1 synapse deletion; paired Wilcoxon over sets",
+  "mean_M4": 1.0,
+  "mean_M1": 0.6812437082669944,
+  "n_sets": 50,
+  "p": 1.1074844197524941e-09
+ }
+}
